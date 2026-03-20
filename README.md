@@ -10,7 +10,7 @@
 **Aether** — приватный браузер нового поколения с встроенным AI-ассистентом на базе Mistral AI.
 
 [Скачать для Windows](https://github.com/s0nettap/Aether-Browser/releases) · [Возможности](#возможности) · [Установка](#установка)
-
+[Наш сайт](https://aetherbrowser.wuaze.com/)
 </div>
 
 ---
