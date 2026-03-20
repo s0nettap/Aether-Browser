@@ -9,8 +9,8 @@
 
 **Aether** — приватный браузер нового поколения с встроенным AI-ассистентом на базе Mistral AI.
 
-[Скачать для Windows](https://github.com/s0nettap/Aether-Browser/releases) · [Возможности](#возможности) · [Установка](#установка)
-[Наш сайт](https://aetherbrowser.wuaze.com/)
+[Скачать для Windows](https://github.com/s0nettap/Aether-Browser/releases) · [Возможности](#возможности) · [Установка](#установка) · [Сайт](https://aetherbrowser.wuaze.com/)
+
 </div>
 
 ---
@@ -88,65 +88,9 @@
 
 ## Установка
 
-### Windows
-
-1. Скачайте последний релиз с [страницы Releases](https://github.com/YOUR_USERNAME/Aether-Browser/releases)
+1. Скачайте последний релиз с [страницы Releases](https://github.com/s0nettap/Aether-Browser/releases)
 2. Распакуйте `Aether-1.0.0-portable.exe` в любую папку
 3. Запустите `Aether.exe`
-
-### Сборка из исходников
-
-```bash
-# Клонирование репозитория
-git clone https://github.com/YOUR_USERNAME/Aether-Browser.git
-cd Aether-Browser
-
-# Установка зависимостей
-npm install
-
-# Режим разработки
-npm run electron:dev
-
-# Сборка для Windows
-npm run dist
-```
-
----
-
-## Технологии
-
-| Технология | Версия | Назначение |
-|------------|--------|------------|
-| Electron | 33.0.0 | Кроссплатформенный браузерный движок |
-| Svelte | 5.14 | Реактивный UI-фреймворк |
-| Vite | 6.0 | Сборщик и dev-сервер |
-| TypeScript | 5.6 | Типизация |
-| electron-store | 11.0 | Локальное хранение данных |
-| electron-builder | 25.1 | Упаковка в исполняемые файлы |
-
----
-
-## Структура проекта
-
-```
-Aether-Browser/
-├── electron/
-│   ├── main.js          # Главный процесс (IPC, окна, загрузки)
-│   └── preload.cjs      # Контекстный мост (безопасный API)
-├── src/
-│   ├── App.svelte       # Главный компонент
-│   ├── stores/
-│   │   └── browser.svelte.ts  # Состояние (вкладки, настройки)
-│   └── components/
-│       ├── ContentArea.svelte   # Webview и New Tab страница
-│       ├── ChatPopup.svelte     # AI чат
-│       ├── DownloadsPopup.svelte
-│       ├── CommandPalette.svelte
-│       ├── HistoryPopup.svelte
-│       └── ExtensionsPopup.svelte
-├── package.json
-└── README.md
-```
 
 ---
 
@@ -157,17 +101,6 @@ Aether создан с фокусом на приватность:
 - 🚫 **Нет телеметрии** — браузер не отправляет никаких данных
 - 🚫 **Нет рекламы** — никаких рекламных вставок
 - ✅ **Локальное хранение** — все данные остаются на вашем устройстве
-- ✅ **Open Source** — код открыт для аудита
-
----
-
-## Contributing
-
-1. Fork репозиторий
-2. Создайте ветку (`git checkout -b feature/amazing-feature`)
-3. Commit изменения (`git commit -m 'Add amazing feature'`)
-4. Push в ветку (`git push origin feature/amazing-feature`)
-5. Откройте Pull Request
 
 ---
 
@@ -181,6 +114,6 @@ MIT License — используйте свободно!
 
 **Сделано с ❤️ для приватного веб-серфинга**
 
-[⬆ Вернуться наверх](#aether-browser)
+[🌐 Сайт](https://aetherbrowser.wuaze.com/) · [⬆ Вернуться наверх](#aether-browser)
 
 </div>
